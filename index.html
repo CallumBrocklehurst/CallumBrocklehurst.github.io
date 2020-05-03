@@ -51,11 +51,11 @@
                             <h3>Travel</h3>
                             <p>The Great Outdoors</p>
 						</div>
-                        <!--<div>
+                        <div>
                             <span class="icon fa-camera"></span>
                             <h3>Photography</h3>
                             <p>Class aptent taciti ad litora</p>
-                        </div>  -->
+                        </div>
 
 					</div>
 
@@ -104,23 +104,25 @@
 
 					<h3>Get in touch</h3>
 
-					<form action="mail.php" method="POST">
-
-						<div class="field half first">
-							<label for="name">Name</label>
-							<input name="name" id="name" type="text" placeholder="Name">
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input name="email" id="email" type="email" placeholder="Email">
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="1" placeholder="Message"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
-						</ul>
+                    <form action="mailto: cbrockwebsite@gmail.com" method="POST" enctype="text/plain">
+                        <div class="field half first">
+                            <label for="name">Name</label>
+                            <input name="name" id="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input name="email" id="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="1" placeholder="Message"></textarea>
+                        </div>
+                        <ul class="actions">
+                            <li><input value="Send Message" class="button alt" type="submit"></li>
+                            <li><input value="Reset" class="button alt" type="reset"></li>
+                        </ul>
+						
+						
 					</form>
 
 					<div class="copyright">
