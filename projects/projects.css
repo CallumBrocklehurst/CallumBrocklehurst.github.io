@@ -2714,6 +2714,7 @@
 
 	#header {
 		color: #fff;
+        font-size: xxx-large;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2724,17 +2725,6 @@
 		width: 100%;
 		z-index: 10001;
 	}
-
-        #header h1 {
-            position: relative;
-            font-size: 3em;
-            text-underline-position: below;
-            font-weight: 500;
-            color: #fff;
-            line-height: 1em;
-            margin: 0 0 1em 0;
-            padding: 0;
-        }
 
 		#header .inner {
 			margin: 0 auto;
