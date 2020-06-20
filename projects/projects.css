@@ -2725,15 +2725,16 @@
 		z-index: 10001;
 	}
 
-    #header h1 {
-        font-size: 3.5em;
-        text-underline-position: below;
-        font-weight: 400;
-        color: #fff;
-        line-height: 1em;
-        margin: 0 0 1em 0;
-        padding: 0;
-    }
+        #header h1 {
+            position: relative;
+            font-size: 3.5em;
+            text-underline-position: below;
+            font-weight: 400;
+            color: #fff;
+            line-height: 1em;
+            margin: 0 0 1em 0;
+            padding: 0;
+        }
 
 		#header .inner {
 			margin: 0 auto;
