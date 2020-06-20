@@ -2785,6 +2785,7 @@
 				@media screen and (max-width: 980px) {
 
 					#header a.navPanelToggle {
+                        font-size: medium;
 						display: inline-block;
 					}
 
