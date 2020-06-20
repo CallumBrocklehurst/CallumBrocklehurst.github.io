@@ -2799,6 +2799,9 @@
 				#header a {
 					padding: 0 0.5em;
 				}
+                #header {
+                    font-size: medium;
+                }
 
 			}
 
@@ -2807,6 +2810,9 @@
 		#header {
 			top: 1em;
 		}
+        #header {
+            font-size: medium;
+        }
 
 	}
 
@@ -2815,6 +2821,9 @@
 		#header {
 			top: .5em;
 		}
+        #header {
+            font-size: medium;
+        }
 
 	}
 
@@ -2823,6 +2832,9 @@
 		#header {
 			font-size: 5em;
 		}
+        #header {
+            font-size: medium;
+        }
 
 	}
 
