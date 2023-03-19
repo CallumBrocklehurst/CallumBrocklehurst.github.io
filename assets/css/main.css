@@ -1935,17 +1935,18 @@
             .flex.flex-3 article {
                 background-color: #abdbe3;
                 width: 35%;
+				border-radius: 25px;
             }
 
         @media screen and (max-width: 980px) {
 
             .flex.flex-3 article {
                 width: 100%;
-                margin-bottom: 3em;
+                margin-bottom: 10em;
             }
 
                 .flex.flex-3 article:last-child {
-                    margin-bottom: 0;
+                    margin-bottom: 10em;
                 }
         }
 
